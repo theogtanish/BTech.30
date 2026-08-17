@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.email-container {
+    background: #ffffff;
+    max-width: 560px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    line-height: 1.6;
+    color: #222;
+}
+
+.logo-wrap {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.logo {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+}
+
+.greeting {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #1a1a2e;
+}
+
+.congrats {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #c0392b;
+    margin-bottom: 16px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+.credentials-box {
+    background: #f4f4f8;
+    border-left: 4px solid #c0392b;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin: 20px 0;
+}
+
+.credentials-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.label {
+    font-weight: 600;
+    display: inline-block;
+    min-width: 90px;
+}
+
+.login-link {
+    color: #c0392b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.closing {
+    font-weight: 500;
+}
+
+.signature {
+    margin-top: 24px;
+    color: #444;
+}
