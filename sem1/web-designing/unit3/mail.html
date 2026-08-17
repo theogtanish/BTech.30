@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Multiverse Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="email-container">
+        <div class="logo-wrap">
+            <img src="https://imgs.search.brave.com/AsIrpaOM2ECYpdQOmQ6gPiS3i2Np7kzisYjd_IkBBfw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtd2l4bXAtZWQz/MGE4NmI4YzRjYTg4/Nzc3MzU5NGMyLndp/eG1wLmNvbS9mLzdh/MTdjOTMyLWRkOTQt/NDg0Yy05ZTExLTM4/OTFlZGVlMTVkNC9k/am9oemlqLTdjZDgy/OTYxLTA4MTAtNDYy/Ny1hNDhkLTcyNmI0/Yzc2OGM0Yi5wbmcv/djEvZmlsbC93XzEy/ODAsaF80OTUvYXZl/bmdlcnNfX2Rvb21z/ZGF5X2xvZ29fcG5n/X2J5X2FpcmllbGFz/aGYyM19kam9oemlq/LWZ1bGx2aWV3LnBu/Zz90b2tlbj1leUow/ZVhBaU9pSktWMVFp/TENKaGJHY2lPaUpJ/VXpJMU5pSjkuZXlK/emRXSWlPaUoxY200/NllYQndPamRsTUdR/eE9EZzVPREl5TmpR/ek56TmhOV1l3WkRR/eE5XVmhNR1F5Tm1V/d0lpd2lhWE56SWpv/aWRYSnVPbUZ3Y0Rv/M1pUQmtNVGc0T1Rn/eU1qWTBNemN6WVRW/bU1HUTBNVFZsWVRC/a01qWmxNQ0lzSW05/aWFpSTZXMXQ3SW1o/bGFXZG9kQ0k2SWp3/OU5EazFJaXdpY0dG/MGFDSTZJaTltTHpk/aE1UZGpPVE15TFdS/a09UUXRORGcwWXkw/NVpURXhMVE00T1RG/bFpHVmxNVFZrTkM5/a2FtOW9lbWxxTFRk/alpEZ3lPVFl4TFRB/NE1UQXRORFl5Tnkx/aE5EaGtMVGN5Tm1J/MFl6YzJPR00wWWk1/d2JtY2lMQ0ozYVdS/MGFDSTZJanc5TVRJ/NE1DSjlYVjBzSW1G/MVpDSTZXeUoxY200/NmMyVnlkbWxqWlRw/cGJXRm5aUzV2Y0dW/eVlYUnBiMjV6SWwx/OS53OVJQeERFc1pi/SDZyT1FGNE8zYTBV/S0xROFExMmE0cTg2/ck9Ta0diTFdB" alt="Avengers Logo" class="logo">
+        </div>
+
+        <h1 class="greeting">Dear {{user.name}},</h1>
+
+        <p class="congrats">🎉 Congratulations!</p>
+
+        <p>
+            We are happy to say that you have been selected for the
+            <strong>Avengers Multiverse Team</strong>, and you are going
+            to be a core member of the team.
+        </p>
+
+        <div class="credentials-box">
+            <p class="credentials-title">Here are your login credentials:</p>
+            <p><span class="label">Username:</span> {{user.name}}</p>
+            <p><span class="label">Password:</span> {{user.password}}</p>
+        </div>
+
+        <p>
+            You can log in at
+            <a href="https://team.avengers.org" class="login-link">team.avengers.org</a>
+            for further information.
+        </p>
+
+        <p class="closing">Congrats again for making it into the Avengers!</p>
+
+        <p class="signature">
+            Thanking you,<br>
+            <strong>Team Head</strong><br>
+            Avengers
+        </p>
+    </div>
+</body>
+</html>
